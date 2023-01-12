@@ -1,0 +1,37 @@
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #31363f;
+	color: aliceblue;
+}
+
+#license {
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+	font-size: 1.5vw;
+	margin: 10px;
+}
+
+#license a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.contactCard {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px;
+}
+
+.contactCard p {
+	margin-left: 5px;
+	font-size: 1.5vw;
+}
+
+.contactCard img {
+	width: 32px;
+	height: 32px;
+}
